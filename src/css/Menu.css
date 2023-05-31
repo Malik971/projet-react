@@ -1,0 +1,24 @@
+.menu {
+    font-size: 1.2em;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline-end: 20px;
+    padding-inline-start: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.activeLick {
+    font-weight: bold;
+    color:rgb(72, 136, 203);
+}
