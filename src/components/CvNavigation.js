@@ -13,10 +13,10 @@ const CvNavigation = () => {
 
       <div className="navigation">
         <ul>
-        <li>
-            <NavLink to="/cv">
+          <li>
+            <NavLink to="/cv/CV">
               <i className="fas fa-home"></i>
-              <span>Home</span>
+              <span>CV</span>
             </NavLink>
           </li>
           <li>

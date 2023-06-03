@@ -10,7 +10,7 @@ $font-3: 'Nova Round', serif;
     height: 100%;
     width: 264px;
     border-radius: $borderRadius;
-    position:relative;
+    position: relative;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 250px 1fr 108px;
@@ -122,6 +122,49 @@ $font-3: 'Nova Round', serif;
             &:hover {
                 color: $color-4
                 ;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .cvsidebar {
+        display: flex;
+        min-height: 50px;
+        margin-bottom: .2rem;
+        width: 100%;
+
+        .cvid, .socialNetwork {
+            display: none;
+        }
+        .navigation {
+            width: 100%;
+            padding: .1rem 1rem;
+            ul {
+                display: flex;
+                justify-content: space-between;
+
+                span {
+                    margin-left: 1.5rem !important;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 580px) {
+    .cvsidebar {
+        ul {
+            justify-content: space-around !important;
+
+            li {
+                padding: 1rem 0 !important;
+            }
+            i {
+                font-size: 1.4rem !important;
+                transform: translateY(-3) !important;
+            }
+            span {
+                display: none;
             }
         }
     }

@@ -40,6 +40,11 @@
   
   a {
     text-decoration: none;
+    color: black;
+    cursor: pointer;
+  }
+  a:visited {
+    color: black;
   }
   .home, knowledges, .portfolio, .contact {
     display: flex;
