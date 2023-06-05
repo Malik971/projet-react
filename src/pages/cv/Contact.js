@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import CvNavigation from "../../components/CvNavigation";
 
 const Contact = () => {
-    return (
-        <div>
-            PAGES CONTACT TEST
-        </div>
-    );
+  return (
+    <div className="contact">
+        <CvNavigation />
+      <h1>PAGES CONTACT TEST</h1>
+    </div>
+  );
 };
 
 export default Contact;

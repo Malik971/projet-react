@@ -14,7 +14,7 @@ const CvNavigation = () => {
       <div className="navigation">
         <ul>
           <li>
-            <NavLink to="/cv/CV">
+            <NavLink to="/cv">
               <i className="fas fa-home"></i>
               <span>CV</span>
             </NavLink>

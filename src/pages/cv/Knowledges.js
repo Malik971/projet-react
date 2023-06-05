@@ -1,12 +1,21 @@
-import React from 'react';
-import CvNavigation from '../../components/CvNavigation';
+import React from "react";
+import CvNavigation from "../../components/CvNavigation";
+import Langages from "../../components/knowledges/Langages";
+import Experience from "../../components/knowledges/Experience";
+import OtherSkills from "../../components/OtherSkills";
+import Hobbies from "../../components/knowledges/Hobbies";
 const Knowledges = () => {
-    return (
-        <><CvNavigation /><div>
-
-            PAGES Knowledges §§§§
-        </div></>
-    );
+  return (
+    <div className="knowledges">
+      <CvNavigation />
+      <div className="knowledgesContent">
+        <Langages />
+        <Experience />
+        <OtherSkills />
+        <Hobbies />
+      </div>
+    </div>
+  );
 };
 
 export default Knowledges;

@@ -6,11 +6,14 @@ const CV = () => {
     <div className="CV">
       <CvNavigation />
       <div className="CVcontent">
-        <div className="content"></div>
+        <div className="content">
         <h1>IBO Malik</h1>
-        <h1>C'est la page home du CV</h1>
+        <h2>C'est la page home du CV</h2>
         <div className="pdf">
-            <a href="./media/CV_IBO_Malik_Front-end.pdf" target="_blank" ></a>
+          <a href="./media/CV_IBO_Malik_Front-end.pdf" target="_blank">
+            mon cv
+          </a>
+        </div>
         </div>
       </div>
     </div>
