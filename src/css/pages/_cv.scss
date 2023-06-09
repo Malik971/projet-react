@@ -1,7 +1,7 @@
 .CV {
 
     .CVcontent{
-        background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+        background: linear-gradient(115deg, transparent 50%, $color-1 100%);
         min-height: $minHeight;
         width: 100%;
         min-height: 500px;
@@ -15,7 +15,7 @@
             height: 100%;
             width: inherit;
 
-            background: url("../../media/malik.jpg") no-repeat left/cover;
+            background: url("../../media/imgTest.jpg") no-repeat left/cover;
             z-index: -1;
             filter: brightness(50%);
         }
