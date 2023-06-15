@@ -128,8 +128,12 @@
         height: 90%;
         box-shadow: 0 2px 6px #333;
         border-radius: 4px;
+        
         cursor: pointer;
         @include verticalCenter;
+      }
+      img:hover {
+        transform: scale(1.05);
       }
       .infos {
         grid-area: 4;

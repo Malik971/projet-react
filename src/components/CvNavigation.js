@@ -44,7 +44,7 @@ const CvNavigation = () => {
         <ul>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://github.com/Malik971"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,7 +53,7 @@ const CvNavigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://twitter.com/Mikey_valkyrie"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -62,7 +62,7 @@ const CvNavigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.upwork.com/freelancers/~01d6ef37bd3e816b96?viewMode=1"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,7 +71,7 @@ const CvNavigation = () => {
           </li>
           <li>
             <a
-              href="https://www.google.com"
+              href="https://www.linkedin.com/in/malik-ibo-086693261/"
               target="_blank"
               rel="noopener noreferrer"
             >

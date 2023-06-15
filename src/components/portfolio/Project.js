@@ -14,10 +14,13 @@ class Project extends Component {
   render() {
     let { name, languageIcons, source, info, picture } = this.props.item;
 
+    // Vérifier si languageIcons est défini et est un tableau
+    const hasLanguageIcons = Array.isArray(languageIcons) && languageIcons.length > 0;
+
     return (
       <div className="project">
         <div className="icons">
-          {languageIcons.map((icon) => (
+          {hasLanguageIcons && languageIcons.map((icon) => (
             <i className={icon} key={icon}></i>
           ))}
         </div>
@@ -33,15 +36,15 @@ class Project extends Component {
               <div className="head">
                 <h2>{name}</h2>
                 <div className="sourceCode">
-                    <a href={source} className="button" target="_blank" rel="noopener noreferrer">code source</a>
+                  <a href={source} className="button" target="_blank" rel="noopener noreferrer">code source</a>
                 </div>
               </div>
 
               <p className="text">{info}</p>
 
-                <div className="button return" onClick={this.handleInfo}>
-                    Retourner sur la page
-                </div>
+              <div className="button return" onClick={this.handleInfo}>
+                Retourner sur la page
+              </div>
             </div>
           </div>
         )}
