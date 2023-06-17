@@ -16,7 +16,7 @@ const Menu = () => {
         </li>
         <li>
           <NavLink
-            to="/projet-react"
+            to="/cv"
             className={({ isActive }) => (isActive ? "activeLick" : undefined)}
           >
             CV IBO Malik

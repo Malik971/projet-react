@@ -38,7 +38,7 @@ function App() {
         <Route path="/list" element={<TechnoList technos={technos} />} />
 
         <Route path="*" element={<NotFound />} />
-        <Route path="/projet-react" element={<CV />} />
+        <Route path="/CV" element={<CV />} />
         <Route path="/cv/knowledges" element={<Knowledges technos={technos} />} />
         <Route path="/cv/portfolio" element={<Portfolio technos={technos} />} />
         <Route path="/cv/contact" element={<Contact technos={technos} />} />
