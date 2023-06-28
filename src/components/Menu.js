@@ -11,7 +11,7 @@ const Menu = () => {
             to="/"
             className={({ isActive }) => (isActive ? "activeLick" : undefined)}
           >
-            Home
+            Pays
           </NavLink>
         </li>
         <li>
@@ -28,7 +28,7 @@ const Menu = () => {
             to="/add"
             className={({ isActive }) => (isActive ? "activeLick" : undefined)}
           >
-            choisie
+            Mail
           </NavLink>
         </li>
         <li>

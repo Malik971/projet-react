@@ -7,12 +7,12 @@ const CV = () => {
       <CvNavigation />
       <div className="CVcontent">
         <div className="content">
-          <h2>C'est la page home du CV</h2>
+          <h4>Hello, I'm</h4>
           <h1>IBO Malik</h1>
-          <h2>Developpeur Web</h2>
+          <h2>Développeur Web</h2>
           <div className="pdf">
-            <a href="./media/yo.JPG" target="cvMalik">
-              mon cv
+            <a href="./media/CV_IBO_Malik_Front-end.pdf" target="_blank" rel="noopener noreferrer">
+              Mon CV
             </a>
           </div>
         </div>
