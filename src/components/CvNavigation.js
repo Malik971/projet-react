@@ -6,7 +6,7 @@ const CvNavigation = () => {
     <div className="cvsidebar">
       <div className="cvid">
         <div className="cvidContent">
-          <img src="./IBO.PNG" alt="profil-ibo" />
+          <img src="/media/Malik_photo-removebg.png" alt="profil Malik" />
           <h3>IBO Malik</h3>
         </div>
       </div>
