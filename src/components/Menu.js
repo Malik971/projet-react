@@ -11,12 +11,12 @@ const Menu = () => {
             to="/"
             className={({ isActive }) => (isActive ? "activeLick" : undefined)}
           >
-            Home
+            Pays
           </NavLink>
         </li>
         <li>
           <NavLink
-            to="/cv"
+            to="/projet-react"
             className={({ isActive }) => (isActive ? "activeLick" : undefined)}
           >
             CV IBO Malik
@@ -28,7 +28,7 @@ const Menu = () => {
             to="/add"
             className={({ isActive }) => (isActive ? "activeLick" : undefined)}
           >
-            choisie
+            Mail
           </NavLink>
         </li>
         <li>

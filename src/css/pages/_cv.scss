@@ -1,7 +1,7 @@
 .CV {
 
     .CVcontent{
-        background: linear-gradient(115deg, transparent 50%, $color-1 100%);
+        background: linear-gradient(115deg, transparent 60%, $color-1 100%);
         min-height: $minHeight;
         width: 100%;
         min-height: 500px;
@@ -15,9 +15,9 @@
             height: 100%;
             width: inherit;
 
-            background: url("../../media/imgTest.jpg") no-repeat left/cover;
+            background: url("../../media/yo.JPG") no-repeat left/cover;
             z-index: -1;
-            filter: brightness(50%);
+            filter: brightness(60%);
         }
 
         .content {
@@ -31,14 +31,21 @@
                 font-family: $font-3;
                 color: $color-5;
                 text-transform: uppercase;
-                text-shadow: 3px 6px 2px rgb(15, 15, 15);
+                text-shadow: 1px 3px 2px rgb(180, 220, 232);
             }
             h2 {
                 font-size: 2.5rem;
-                padding: 1.5rem 0 7rem;
+                padding: 1.5rem 0.7rem;
                 color: $color-5;
                 text-transform: uppercase;
-                text-shadow: 1px 4px 1px rgb(15, 15, 15);
+                text-shadow: 1px 4px 1px rgb(180, 220, 232);
+            }
+            h4 {
+                font-size: 1.1rem;
+                padding: 1.5rem 0.7rem;
+                color: $color-5;
+                text-transform: uppercase;
+                text-shadow: 0px 1px 0px rgb(180, 220, 232);
             }
             .pdf {
                 a {
@@ -46,12 +53,12 @@
                     background: $color-3;
                     padding: 1rem 2rem;
                     border-radius: $borderRadius;
-                    box-shadow: 0 5px 1px rgb(15, 15, 15);
+                    box-shadow: 0 5px 1px rgb(180, 220, 232);
                     transition: 0.2s ease;
 
                     &:hover {
                         background: $color-4;
-                        box-shadow: 0 5px 1px rgb(15, 15, 15);
+                        box-shadow: 0 5px 1px rgb(180, 220, 232);
                     }
                 }
             }
@@ -66,11 +73,11 @@
 @media screen and (max-width: 600px) {
     .CVcontent {
         &::after {
-            background: url("../../media/imgTest.jpg") no-repeat 60% 50%/cover !important;
+            background: url("../../media/yo.JPG") no-repeat 60% 50%/cover !important;
             h1 {
                 font-size: 3rem !important;
             }
-            h2 {
+            h4 {
                 font-size: 1.8rem !important;
             }
         }

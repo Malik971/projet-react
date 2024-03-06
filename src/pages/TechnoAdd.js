@@ -38,7 +38,7 @@ export default function TechnoAdd(props) {
             onChange={(evt) => handleChange(evt)}
           />
           <br />
-          <label htmlFor="technocategory">Categorie:</label>
+          <label htmlFor="technocategory">Categorie :</label>
           <br />
           <select
             name="technocategory"
@@ -64,7 +64,7 @@ export default function TechnoAdd(props) {
             onChange={(evt) => handleChange(evt)}
           ></textarea>
           <br />
-          <input type="submit" value="Add techno" className="btn" />
+          <input type="submit" value="Ajouter une techno" className="btn" />
         </form>
       </div>
     </div>

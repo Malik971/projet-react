@@ -7,7 +7,7 @@ const Hobbies = () => {
       <ul>
         <li className="hobby">
           <i className="fas fa-running"></i>
-          <span>cours de Javascript (perso)</span>
+          <span>cours de Javascript</span>
         </li>
         <li className="hobby">
           <i className="fas fa-hiking"></i>

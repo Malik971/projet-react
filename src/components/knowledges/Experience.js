@@ -9,10 +9,8 @@ const Experience = () => {
         <h5>Mai 2021 à juillet 2021</h5>
         <p>stage développeur</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto
-          facilis distinctio labore, sunt odit consectetur quae est? Magnam
-          repudiandae, incidunt dolore quo ut ea sunt! Eum quisquam
-          exercitationem omnis.
+          J'étais chargé d'enregistrer les nouveaux clients, de mettre à jour
+          leur profil etc... J'ai appris à mieux m'organiser
         </p>
       </div>
       <div className="exp-2">
@@ -20,10 +18,9 @@ const Experience = () => {
         <h5>Décembre 2021 à Février 2022</h5>
         <p>graphique & visual designer</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto
-          facilis distinctio labore, sunt odit consectetur quae est? Magnam
-          repudiandae, incidunt dolore quo ut ea sunt! Eum quisquam
-          exercitationem omnis.
+          J'ai appris au côté d'une designer graphique et développeuse web J'ai
+          développé un site web et créé un nouveau site web
+          https://decorenov971.com/
         </p>
       </div>
       <div className="exp-3">
@@ -31,10 +28,10 @@ const Experience = () => {
         <h5>D'avril 2023 à en cours</h5>
         <p>stage développeur web</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab architecto
-          facilis distinctio labore, sunt odit consectetur quae est? Magnam
-          repudiandae, incidunt dolore quo ut ea sunt! Eum quisquam
-          exercitationem omnis.
+          J'étais charger de la refonte site internet 
+          Gestion du site 
+          Design web
+          https://workinmusic.fr/
         </p>
       </div>
     </div>
